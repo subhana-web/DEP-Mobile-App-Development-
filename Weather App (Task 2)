@@ -1,0 +1,8 @@
+Objective:
+A Flutter-based Weather App that provides current weather information and forecasts using an external weather API like OpenWeatherMap.
+
+Key Features:
+Current Weather: Get real-time weather conditions for your location.
+Forecasts: 5-day weather forecasts with detailed information.
+Location Search: Find weather updates for any city.
+Weather Alerts: Stay informed with critical weather alerts for your area.
