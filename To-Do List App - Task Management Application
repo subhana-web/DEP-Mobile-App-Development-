@@ -1,0 +1,25 @@
+To-Do List App - Task Management Application
+Objective
+The To-Do List App allows users to efficiently manage their daily tasks. This application provides functionality for task creation, viewing, editing, categorization, due dates, and reminders.
+
+Features
+User-friendly UI: Screens for task creation, viewing, and editing with an intuitive layout.
+CRUD Operations: Users can create, read, update, and delete tasks easily.
+
+Tech Stack
+Flutter: Frontend framework for designing the user interface and managing state.
+Dart: Programming language for building the app.
+
+How it Works
+Task Creation: Users can add new tasks with details such as title, description, category, and due date.
+Task Viewing: View tasks by category or due date. Completed tasks can be marked or archived.
+Task Deletion: Delete tasks when no longer needed, with a confirmation prompt to avoid accidental deletions.
+
+Future Enhancements
+Sync with Cloud: Option to sync tasks across devices using Firebase.
+Task Priority Levels: Adding levels to set high-priority or low-priority tasks.
+Custom Themes: Implement light and dark themes based on user preference.
+Conclusion
+The To-Do List App is a robust and user-friendly application to manage daily tasks efficiently. I enjoyed building it, and future iterations will include additional features for enhanced usability.
+
+Feel free to check out the code in the repository and give it a try!
