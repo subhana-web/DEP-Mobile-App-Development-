@@ -1,0 +1,46 @@
+[debug] [2024-10-03T17:55:30.003Z] ----------------------------------------------------------------------
+[debug] [2024-10-03T17:55:30.011Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create web expenses_tracker (web) --json --project=expense-tracker-3eba8
+[debug] [2024-10-03T17:55:30.013Z] CLI Version:   13.16.0
+[debug] [2024-10-03T17:55:30.013Z] Platform:      win32
+[debug] [2024-10-03T17:55:30.014Z] Node Version:  v20.15.0
+[debug] [2024-10-03T17:55:30.015Z] Time:          Thu Oct 03 2024 22:55:30 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-10-03T17:55:30.015Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-03T17:55:30.038Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-03T17:55:30.039Z] > authorizing via signed-in user (subhanasyeda009@gmail.com)
+[info] Create your WEB app in project expense-tracker-3eba8:
+[debug] [2024-10-03T17:55:30.071Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/expense-tracker-3eba8/webApps [none]
+[debug] [2024-10-03T17:55:30.077Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/expense-tracker-3eba8/webApps {"displayName":"expenses_tracker (web)"}
+[debug] [2024-10-03T17:55:32.037Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/expense-tracker-3eba8/webApps 200
+[debug] [2024-10-03T17:55:32.038Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/expense-tracker-3eba8/webApps {"name":"operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh"}
+[debug] [2024-10-03T17:55:32.042Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh [none]
+[debug] [2024-10-03T17:55:32.534Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh 200
+[debug] [2024-10-03T17:55:32.534Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh {"name":"operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh"}
+[debug] [2024-10-03T17:55:33.040Z] [Create Web app Poller] Retrying task index 0
+[debug] [2024-10-03T17:55:33.042Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh [none]
+[debug] [2024-10-03T17:55:33.578Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh 200
+[debug] [2024-10-03T17:55:33.578Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh {"name":"operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh"}
+[debug] [2024-10-03T17:55:34.588Z] [Create Web app Poller] Retrying task index 0
+[debug] [2024-10-03T17:55:34.591Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh [none]
+[debug] [2024-10-03T17:55:35.199Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh 200
+[debug] [2024-10-03T17:55:35.199Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh {"name":"operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh"}
+[debug] [2024-10-03T17:55:37.208Z] [Create Web app Poller] Retrying task index 0
+[debug] [2024-10-03T17:55:37.210Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh [none]
+[debug] [2024-10-03T17:55:37.762Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh 200
+[debug] [2024-10-03T17:55:37.762Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh {"name":"operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh"}
+[debug] [2024-10-03T17:55:41.764Z] [Create Web app Poller] Retrying task index 0
+[debug] [2024-10-03T17:55:41.766Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh [none]
+[debug] [2024-10-03T17:55:42.261Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh 200
+[debug] [2024-10-03T17:55:42.262Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh {"name":"operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh"}
+[debug] [2024-10-03T17:55:50.275Z] [Create Web app Poller] Retrying task index 0
+[debug] [2024-10-03T17:55:50.276Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh [none]
+[debug] [2024-10-03T17:55:51.278Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh 200
+[debug] [2024-10-03T17:55:51.278Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh {"name":"operations/workflows/MjBlNGZjMTAtM2VhNi00ODQwLWIyMDYtOWMxNjI1YzYyNTdh"}
+[debug] Task index 0 failed: timed out after 30000ms.
+[debug] [2024-10-03T17:56:02.057Z] Task index 0 failed: timed out after 30000ms.
+[debug] [2024-10-03T17:56:02.511Z] FirebaseError: Task index 0 failed: timed out after 30000ms.
+    at Timeout.<anonymous> (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\throttler\throttler.js:171:24)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: Failed to create Web app for project expense-tracker-3eba8. See firebase-debug.log for more info.
