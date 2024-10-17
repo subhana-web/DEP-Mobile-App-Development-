@@ -1,0 +1,33 @@
+📸 Photo Editor App
+🎯 Objective
+The Photo Editor App is a simple and user-friendly mobile application designed to provide essential image editing features. It allows users to perform quick edits on their photos, such as adding stickers, text, emojis, and adjusting basic image properties like brightness, contrast, and saturation.
+
+🚀 Features
+Image Selection: Users can select an image from their device’s gallery to begin editing.
+Image Overlay: Allows users to paste additional images like stickers, icons, or graphics on top of the main image.
+Text & Emoji Support: Users can add customizable text or emojis to their images, with full control over positioning, resizing, and rotation.
+Adjustments: Image editing features include options to:
+Adjust brightness
+Modify contrast
+Change saturation
+📱 User Interface
+The app features a clean and intuitive interface, making it easy for users to:
+
+Select an image from the gallery
+Apply various edits using a set of accessible tools
+Preview the edits before saving
+🛠️ Tech Stack
+Flutter: For building the app's UI and handling cross-platform functionality.
+Dart: Core programming language for implementing app logic.
+Image Manipulation Libraries: Used to adjust brightness, contrast, and saturation.
+Local Storage: To save edited images back to the user’s gallery.
+💡 How It Works
+Select Image: Open the app and choose an image from your device’s gallery.
+Apply Edits:
+Add stickers or emojis to the image.
+Insert text, move it around, resize, and rotate it as desired.
+Adjust the brightness, contrast, and saturation to enhance the photo.
+Features To Add in Future
+Filters for image editing.
+Crop and resize features.
+Undo/Redo functionality.
